@@ -1,0 +1,1 @@
+-- Just trying to seee if a website automaticly need a script.lua file
