@@ -8,8 +8,7 @@ body {
     align-items: center;
     height: 100vh;
 }
-
-.container {
+container {
     background-color: #373737;
     border: 2px solid #D48319;
     width: 800px;
@@ -20,7 +19,7 @@ body {
     color: #FFFFFF;
 }
 
-.header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,20 +28,24 @@ body {
     margin-bottom: 20px;
     font-size: 25px;
 }
-.info {
+info {
     font-size: large;
 }
 
 
-.header .identifier {
+header {
     font-size: 18px;
     color: #D48319;
 }
 
-.contact {
+identifier {
+    font-size: 18px;
+    color: #D48319;
+}
+
+contact {
     border: 2px solid #D48319;
-    padding: 10px;
-    
+    padding: 10px; 
 }
 a {
      color:  #FFFFFF;
@@ -50,11 +53,11 @@ a {
 a:active {
     color: #FFFFFF;
 }
-.contact p {
+contact p {
     margin: 10px 0;
 }
 
-.icon {
+icon {
     width: 20px;
     height: 20px;
     vertical-align: middle;
